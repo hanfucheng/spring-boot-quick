@@ -1,6 +1,5 @@
 package com.active2.config;
 
-import com.active2.mq.SimpeQueueConsumer;
 import com.active2.mq.TestQueueConsumer;
 import org.apache.activemq.ActiveMQConnectionFactory;
 import org.apache.activemq.RedeliveryPolicy;

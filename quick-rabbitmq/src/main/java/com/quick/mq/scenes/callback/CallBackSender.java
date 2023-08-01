@@ -1,7 +1,7 @@
 package com.quick.mq.scenes.callback;
 
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -30,8 +30,10 @@ public class CallBackSender implements  RabbitTemplate.ConfirmCallback{
     }
 
 
+
     @Override
     public void confirm(CorrelationData correlationData, boolean b, String s) {
         System.out.println("callbakck confirm: " + correlationData.getId());
+
     }
 }
