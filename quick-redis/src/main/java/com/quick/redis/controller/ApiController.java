@@ -20,6 +20,7 @@ public class ApiController {
     @RequestMapping(value = "/addOne/{key}", method = RequestMethod.GET)
     public Integer addOne(@PathVariable("key") String key) {
         return companyService.addOne(key);
+
     }
 
     /**

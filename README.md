@@ -58,7 +58,7 @@
 ├── quick-package-assembly
 ├── quick-package-assembly-multi-env
 ├── quick-rabbitmq
-├── quick-redies
+├── quick-redis
 ├── quick-rest-template
 ├── quick-rocketmq
 ├── quick-starter

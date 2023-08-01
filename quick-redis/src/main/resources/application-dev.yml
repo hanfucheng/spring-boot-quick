@@ -1,0 +1,19 @@
+logging:
+  config: classpath:log4j2.xml
+
+server:
+  port: 8081
+
+spring:
+  redis:
+    database: 1
+    #我的honor-pc上的 vmwarea 静态虚拟机ip
+    host: 192.168.92.128
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+    connect-timeout: 500

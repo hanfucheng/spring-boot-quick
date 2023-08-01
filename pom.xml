@@ -21,7 +21,7 @@
         <module>quick-mybatis-druid</module>
         <module>quick-jdbc</module>
         <module>quick-okhttp</module>
-        <module>quick-redies</module>
+        <module>quick-redis</module>
         <module>quick-oauth2</module>
         <module>quick-jpa</module>
         <module>quick-rocketmq</module>
